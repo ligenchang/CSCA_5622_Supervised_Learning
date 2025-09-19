@@ -1,3 +1,53 @@
+# Project Introduction
+
+This project develops a supervised machine learning solution for a binary classification task: predicting whether a credit card application should be approved or denied based on 15 anonymized application attributes (mixed numeric, categorical, binary). The learning approach is supervised learning, and the problem type is binary classification. I evaluate and compare multiple algorithms: linear models (Logistic Regression), tree ensembles (Random Forest, XGBoost), and kernel methods (SVM). The objective is to build a performant classifier that supports consistent, data-driven credit decisioning.
+
+Key elements:
+- Type of Learning: Supervised Machine Learning
+- Task Type: Binary Classification (Credit Approval)
+- Algorithms Utilized: Logistic Regression, Random Forest, XGBoost, Support Vector Machine
+
+
+## Project Motivation & Goals
+
+### Motivation
+Credit approval is a high-stakes decision with direct impact on both financial institutions and individuals. The UCI Credit Approval dataset, although anonymized, provides a realistic environment to practice and learn the entire machine learning workflow: from handling raw, messy data to building interpretable models that inform decision-making. There are a lot of opportunities to deal with the data cleanings.
+
+
+### Primary Goal
+The goal of this project is not only to build predictive models for credit approval but also to learn the core skills of applied machine learning:
+
+- Data Preprocessing – Practice dealing with missing values, encoding categorical data, and scaling continuous variables.
+
+- Model Selection & Evaluation – Compare different classifiers, understand trade-offs between interpretability (e.g. logistic regression) and accuracy (e.g. ensemble models), and learn how to evaluate models beyond accuracy using precision, recall, and AUC-ROC curve.
+
+- Feature Understanding – Learn to identify which features carry the most predictive power and how to interpret model outputs in a meaningful way.
+
+- End-to-End Workflow – Develop experience in building a complete ML project pipeline: data exploration, preprocessing, training, tuning, evaluation, and communication of results.
+
+
+## Data Source & Citation
+
+### Dataset Origin
+The dataset used in this project is the UCI Credit Approval dataset (also known historically as the Australian Credit Approval dataset). It contains 690 credit card applications with 15 anonymized predictor attributes (mixed categorical, binary, and continuous) and a binary target indicating approval (`+`) or denial (`-`). Attribute names and categorical value labels were intentionally obfuscated to protect confidentiality.
+
+### How the Data Was Gathered
+The original data were collected by a financial institution processing real credit applications. To enable research use while protecting privacy, identifying details and semantic meanings of variables were masked. The dataset has since been hosted in the UCI Machine Learning Repository for benchmarking classification.
+
+### Key Characteristics
+- Instances: 690
+- Features: 15 anonymized applicant/application attributes
+- Target: Binary approval outcome
+- Has Missing Values: Yes
+
+### Access URL
+UCI Repository Landing Page: https://archive.ics.uci.edu/dataset/27/credit+approval
+
+### License
+This dataset is licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) license. This allows for the sharing and adaptation of the datasets for any purpose, provided that the appropriate credit is given.
+
+
+
 ## Discussion and Conclusion  
 
 ### Key Learnings and Takeaways  
